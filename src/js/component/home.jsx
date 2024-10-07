@@ -1,18 +1,21 @@
 import React from "react";
-import Navbar from "./Navbar.jsx";
+import Navbar from "./navbar.jsx";
+import Footer from "./footer.jsx";
+import Header from "./header.jsx";
+import Jumbotron from "./jumbotron.jsx";
+import Card from "./card.jsx";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
 
-//create your first component
 const Home = () => {
-	return (
-		de by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
-		</div>
-	);
+	return (<>
+		<Navbar></Navbar>
+		<Footer></Footer>
+		<Header></Header>
+		<Card></Card>
+		<Jumbotron></Jumbotron>
+		
+
+		</>)
 };
 
 export default Home;
